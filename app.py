@@ -8,4 +8,4 @@ st.sidebar.header("Settings")
 name = st.sidebar.text_input("Ingresa tu nombre")
 # Conditional greeting
 if name:
-st.info(f"Hola, {name}! Gracias.")
+    st.info(f"Hola, {name}! Gracias.")
